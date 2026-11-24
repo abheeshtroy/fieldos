@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+# JS
+node_modules/
+.next/
+out/
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+# Local data
+*.db
+.DS_Store
+coverage/
